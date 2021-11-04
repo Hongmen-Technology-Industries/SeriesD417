@@ -1,0 +1,89 @@
+{
+  "train.rtm_3000_horn": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_en3000_horn"
+    ]
+  },
+  "train.rtm_3000_Ehorn": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_en3000_Ehorn"
+    ]
+  },
+  "train.rtm_air": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_air"
+    ]
+  },
+  "train.rtm_cop": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cop"
+    ]
+  },
+  "train.rtm_Announce": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_announce"
+    ]
+  },
+  "train.rtm_Gota del Vient": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Gota del Vient"
+    ]
+  },
+  "train.rtm_Water Crown_1": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Water Crown_1"
+    ]
+  },
+  "train.rtm_Water Crown_2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Water Crown_2"
+    ]
+  },
+  "train.rtm_Water Crown_3": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Water Crown_3"
+    ]
+  },
+  "train.rtm_209open": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_209open"
+    ]
+  },
+  "train.rtm_209close": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_209close"
+    ]
+  },
+    "train.rtm_701door": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_701"
+    ]
+  },
+	"train.GTO1":
+		{
+			"category": "neutral","sounds":
+				[
+					"train/rtm_GTO1"
+				]
+		},
+
+        "train.run1":
+		{
+			"category": "neutral","sounds":
+				[
+					"train/rtm_run1"
+				]
+		}
+}

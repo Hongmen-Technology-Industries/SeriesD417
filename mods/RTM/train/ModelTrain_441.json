@@ -1,0 +1,220 @@
+{
+
+"trainName": "441",
+
+"trainType": "EC",
+
+"trainModel2": { "modelFile": "ModelTrain_441.mqo",
+                   "textures": [["mat0", "textures/train/441.png", "AlphaBlend"],
+                                ["mat1", "textures/train/421.png", ""],
+                                ["mat2", "textures/train/419.png", ""],
+                                ["mat3", "textures/train/430.png", "AlphaBlend"]]},               
+"doCulling": "true",
+
+"bogieModel2": { "modelFile": "DT71.mqo",
+                   "textures": [["default", "textures/train/DT71.png"]]},
+
+
+"buttonTexture": "textures/train/button_441.png",
+
+  "rollsignTexture": "textures/train/rollsign_DR1.png",
+"rollsignNames": ["none", "Not_in_Service", 
+                                "Test_run", 
+                                "AshikagaLime", 
+                                "ShiraisoLine", 
+                                "AshiTouKeiyu", 
+                                "TokimekiLine", 
+                                "Local", 
+                                "Local_Ashikaga", 
+                                "Local_MinamiAshikaga", 
+                                "Local_Takaku", 
+                                "Local_Ohara", 
+                                "Local_Nagamori",
+                                "Local_Hoshigaya",
+                                "Local_KitaAhikaga", 
+                                "Local_Shiraiso", 
+                                "Local_Takanomiya", 
+                                "Local_HigashiAshikaga",
+                                "Local_Iwakitanakura", 
+                                "Local_Mikawa", 
+                                "Rapid", 
+                                "Rapid_Ashikaga", 
+                                "Rapid_Ohara",
+                                "Rapid_Nagamori", 
+                                "Rapid_Hoshigaya", 
+                                "Rapid_Shiraiso",
+                                "Rapid_Takanomiya", 
+                                "Rapid_Iwakitanakura", 
+                                "Rapid_Mikawa",
+                                "SR_Ashikaga",
+                                "SR_Nagamori",
+                                "SR_Hoshigaya",
+                                "SR_Shiraiso",
+                                "SR_Takanomiya",
+                                "SR_Mikawa",
+                                "OL_Ashikaga",
+                                "OL_MInamiAshikaga",
+                                "OL_Takaku",
+                                "OL_Nagamori",
+                                "OL_Shiraiso",
+                                "OL_HigashiAshikaga",
+                                "OL_Iwakitanakura",
+                                "OL_Mikawa",
+                                "OR_Ashikaga",
+                                "OR_Takaku",
+                                "OR_Nagamori",
+                                "OR_Shiraiso",
+                                "OR_Iwakitanakura",
+                                "OR_Mikawa",
+                                "Liner_Nagamori",
+                                "Liner_Ashikaga" ],
+  "rollsigns": [
+    {
+      "uv": [0.0, 1.0, 0.0, 1.0],
+      "pos": [[[0.4125, 2.387, 10.1], [0.4125, 2.1685, 10.1], [-0.4125, 2.1685, 10.1], [-0.4125, 2.387, 10.1]]],
+      "doAnimation": false,
+    	"disableLighting": false
+    }
+  ],
+
+"smoothing": true,
+
+"soundScriptPath": "scripts/MugenLib_701IGBT.js",
+"sound_BrakeRelease": "sound_mugenlib:RTMLib.Brake.BR2N",
+"sound_BrakeRelease2": "sound_mugenlib:RTMLib.Brake.BR2L",
+"sound_Stop": "sound_209gto:train.rtm_cop",
+"sound_Horn": "sound_mugenlib:RTMLib.Horn.Horn4",
+"sound_DoorOpen": "sound_mugenlib:RTMLib.Door.209_Open",
+"sound_DoorClose": "sound_mugenlib:RTMLib.Door.209_Close",
+"sound_Announcement": [["EmergencyHone", "sound_mugenlib:RTMLib.Horn.Horn3"],
+                       ["EB_announce","sound_mugenlib:RTMLib.sound.E233_Emergency_announce"],
+                       ["Ding","sound_mugenlib:RTMLib.sound.Ding"],
+                       ["oneman-gyoumu","sound_mugenlib:RTMLib.sound.oneman-gyoumu"],
+                       ["oneman-Announce","sound_mugenlib:RTMLib.sound.oneman-Announce"],
+                       ["soon-departure","sound_mugenlib:RTMLib.sound.oneman-soon-departure"],
+                       ["Announce-oneman","sound_mugenlib:RTMLib.sound.oneman-Announce-departure"],
+                       ["Soon-man","sound_mugenlib:RTMLib.sound.oneman-soon-manstation"],
+                       ["Soon-unman","sound_mugenlib:RTMLib.sound.oneman-soon-unmanstation"],
+                       ["DoorAnnounce","sound_mugenlib:RTMLib.sound.oneman_semiauto"],
+                       ["DoorAnnounce_Unman","sound_mugenlib:RTMLib.sound.oneman_semiauto_unman"],
+                       ["soon-laststop","sound_mugenlib:RTMLib.sound.oneman-soon-laststop"]],
+
+"door_left": [
+ {"objects": ["doorLF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.625]  ]},
+ {"objects": ["doorLB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.625]]}
+],
+
+"door_right": [
+ {"objects": ["doorRF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.625]]},
+ {"objects": ["doorRB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.625]]}
+],
+"pantograph_front": [
+      {
+          "objects": ["PS33B_arm2"],
+          "pos": [0.0, 3.0118, -6.6686],
+          "transform": [
+              [-26.0, 1.0, 0.0, 0.0]
+          ],
+          "childParts": [
+              {
+                  "objects": ["PS33B_arm1"],
+                  "pos": [0.0, 3.6726, -7.8369],
+                  "transform": [
+                      [50.0, 1.0, 0.0, 0.0]
+                  ],
+                  "childParts": [
+                      {
+                          "objects": ["PS33B_arm4"],
+                          "pos": [0.0, 4.6224, -6.2072],
+                          "transform": [
+                              [1.7, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["PS33B-slider1"],
+                          "pos": [0.0, 4.6164, -6.3126],
+                          "transform": [
+                              [-24, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["PS33B_arm3"],
+                          "pos": [0.0, 3.5167, -7.9478],
+                          "transform": [
+                              [-60.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "pantograph_back": [
+      {
+          "objects": ["PS33B_arm22"],
+          "pos": [0.0, 3.0118, 6.6686],
+          "transform": [
+              [26.0, 1.0, 0.0, 0.0]
+          ],
+          "childParts": [
+              {
+                  "objects": ["PS33B_arm12"],
+                  "pos": [0.0, 3.6726, 7.8369],
+                  "transform": [
+                      [-50.0, 1.0, 0.0, 0.0]
+                  ],
+                  "childParts": [
+                      {
+                          "objects": ["PS33B_arm42"],
+                          "pos": [0.0, 4.6224, 6.2072],
+                          "transform": [
+                              [-1.7, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["PS33B-slider12"],
+                          "pos": [0.0, 4.6164, 6.3126],
+                          "transform": [
+                              [24, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      },
+                      {
+                          "objects": ["PS33B_arm32"],
+                          "pos": [0.0, 3.5167, 7.9478],
+                          "transform": [
+                              [60.0, 1.0, 0.0, 0.0]
+                          ],
+                          "childParts": []
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+
+"seatPos": [[12, 0, 130, 2], [12, 0, 110, 2], [12, 0, 90, 2], [12, 0, 70, 2], [12, 0, 50, 2], [12, 0, 30, 2], [12, 0, 10, 2],
+			[12, 0, -130, 2], [12, 0, -110, 2], [12, 0, -90, 2], [12, 0, -70, 2], [12, 0, -50, 2], [12, 0, -30, 2], [12, 0, -10, 2],
+			[-12, 0, 130, 2], [-12, 0, 110, 2], [-12, 0, 90, 2], [-12, 0, 70, 2], [-12, 0, 50, 2], [-12, 0, 30, 2], [-12, 0, 10, 2],
+			[-12, 0, -130, 2], [-12, 0, -110, 2], [-12, 0, -90, 2], [-12, 0, -70, 2], [-12, 0, -50, 2], [-12, 0, -30, 2], [-12, 0, -10, 2]],
+
+"renderLight": true,
+"playerPos": [[0.8, 0.2, 9.2], [-0.8, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.3], [0.0, 0.0, -7.3]],
+"tags": "D213",
+"muteJointSound": "true",
+"trainDistance": 10.3
+
+}
